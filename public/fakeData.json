@@ -1,0 +1,218 @@
+{
+    "menusItems": [
+        {
+            "id": 1,
+            "text": "Home",
+            "class": "drop",
+            "link": "/home",
+            "dropdown": {}
+        },
+        {
+            "id": 2,
+            "text": "Portfolio",
+            "class": "drop",
+            "link": "/portfolio",
+            "dropdown": {
+                "class1": "dropdown",
+                "class2": "",
+                "dropdownMenu": [
+                    {
+                        "id": 2.1,
+                        "text": "Portfolio",
+                        "class": "",
+                        "link": "/portfolio",
+                        "dropdown": []
+                    },
+                    {
+                        "id": 2.2,
+                        "text": "Single portfolio",
+                        "class": "",
+                        "link": "/single-portfolio",
+                        "dropdown": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "text": "Blog",
+            "class": "drop",
+            "link": "/blog",
+            "dropdown": {
+                "class1": "dropdown",
+                "class2": "",
+                "dropdownMenu": [
+                    {
+                        "id": 3.1,
+                        "text": "Blog 3 column",
+                        "class": "",
+                        "link": "/blog",
+                        "dropdown": []
+                    },
+                    {
+                        "id": 3.2,
+                        "text": "Blog details",
+                        "class": "",
+                        "link": "/blog-details",
+                        "dropdown": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "text": "Shop",
+            "class": "drop",
+            "link": "/shop",
+            "dropdown": {
+                "class1": "dropdown",
+                "class2": "mega_dropdown",
+                "dropdownMenu": [
+                    {
+                        "id": 4.1,
+                        "text": "Shop layout",
+                        "class": "mega__title",
+                        "link": "/shop",
+                        "dropdown": {
+                            "class": "mega__item",
+                            "item": {
+                                "id": 4.11,
+                                "text": "Default shop",
+                                "class": "",
+                                "link": "/shop"
+                            }
+                        }
+                    },
+                    {
+                        "id": 4.2,
+                        "text": "Product details layout",
+                        "class": "mega__title",
+                        "link": "/shop",
+                        "dropdown": {
+                            "class": "mega__item",
+                            "item": {
+                                "id": 4.22,
+                                "text": "Tab style 1",
+                                "class": "",
+                                "link": "/product-details"
+                            }
+                        }
+                    },
+                    {
+                        "id": 4.3,
+                        "text": "",
+                        "class": "",
+                        "link": "",
+                        "dropdown": {
+                            "class": "mega__item",
+                            "item": {
+                                "id": 4.31,
+                                "text": "",
+                                "class": "mega-item-img",
+                                "link": "/shop",
+                                "img": "images/feature-img/3.png"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "text": "Pages",
+            "class": "drop",
+            "link": "",
+            "dropdown": {
+                "class1": "dropdown",
+                "class2": "",
+                "dropdownMenu": [
+                    {
+                        "id": 5.1,
+                        "text": "About",
+                        "class": "",
+                        "link": "/about",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.2,
+                        "text": "Testimonials",
+                        "class": "",
+                        "link": "",
+                        "dropdown": {
+                            "class": "lavel-dropdown",
+                            "item": {
+                                "id": 5.21,
+                                "text": "Customer review",
+                                "class": "",
+                                "link": "/customer-review"
+                            }
+                        }
+                    },
+                    {
+                        "id": 5.3,
+                        "text": "Shop",
+                        "class": "",
+                        "link": "/shop",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.4,
+                        "text": "Shop sidebar",
+                        "class": "",
+                        "link": "/shop-sidebar",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.5,
+                        "text": "Product details",
+                        "class": "",
+                        "link": "/product-details",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.6,
+                        "text": "Cart",
+                        "class": "",
+                        "link": "/cart",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.7,
+                        "text": "Wishlist",
+                        "class": "",
+                        "link": "/wishlist",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.8,
+                        "text": "Checkout",
+                        "class": "",
+                        "link": "/checkout",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.9,
+                        "text": "Team",
+                        "class": "",
+                        "link": "/team",
+                        "dropdown": {}
+                    },
+                    {
+                        "id": 5.11,
+                        "text": "Login & Register",
+                        "class": "",
+                        "link": "/login-register",
+                        "dropdown": {}
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "text": "Contact",
+            "class": "",
+            "link": "/contact",
+            "dropdown": {}
+        }
+    ]
+}

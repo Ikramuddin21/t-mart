@@ -11,7 +11,7 @@
             "id": 2,
             "text": "Portfolio",
             "class": "drop",
-            "link": "/portfolio",
+            "link": "/portfolio-card-box-2",
             "dropdown": {
                 "class1": "dropdown",
                 "class2": "",
@@ -20,7 +20,7 @@
                         "id": 2.1,
                         "text": "Portfolio",
                         "class": "",
-                        "link": "/portfolio",
+                        "link": "/portfolio-card-box-2",
                         "dropdown": []
                     },
                     {
@@ -137,6 +137,8 @@
                         "id": 5.2,
                         "text": "Testimonials",
                         "class": "",
+                        "icon": true,
+                        "iconClass": "zmdi zmdi-chevron-right",
                         "link": "",
                         "dropdown": {
                             "class": "lavel-dropdown",

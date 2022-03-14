@@ -1,40 +1,33 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import data from '../../temp/fakeData.json';
 
 const MenuLeft = () => {
-
-    const [menus, setMenus] = useState([]);
-
-    useEffect(() => {
-        fetch('./fakeData.json')
-        .then(res => res.json())
-        .then(data => setMenus(data.menusItems))
-    }, []);
-
-    console.log(menus);
 
     return (
         <div className="col-md-8 col-lg-8 col-sm-6 col-xs-6">
             <nav className="mainmenu__nav hidden-xs hidden-sm">
                 <ul className="main__menu">
                     {
-                        menus.length > 0 && menus.map(menu => <li 
+                        data.menusItems.length > 0 && data.menusItems.map(menu => <li 
                             key={menu.id}
                             className={menu.class}
-                        ><a href={menu.link}>{menu.text}</a>
+                        ><Link to={menu.link}>{menu.text}</Link>
                         {Object.keys(menu.dropdown).length > 0 && <ul className={[menu.dropdown.class1, menu.dropdown.class2].join(" ")}>
                             {menu.dropdown.dropdownMenu.map(ddMenu => <li
                                 key={ddMenu.id}
-                            ><a 
-                                href={ddMenu.link && ddMenu.link}
-                                className={ddMenu.class && ddMenu.class}
-                            >{ddMenu.text}</a>
+                            ><Link 
+                                to={ddMenu.link && ddMenu.link}
+                                className={ddMenu.class}
+                                >{ddMenu.text}
+                                {ddMenu.icon && <span><i className={ddMenu.iconClass} /></span>}
+                            </Link>
                                 {
                                     Object.keys(ddMenu.dropdown).length > 0 && <ul className={ddMenu.dropdown.class}>
-                                        <li>{ddMenu.dropdown.item.img ? <div className={ddMenu.dropdown.item.class}><a href={ddMenu.dropdown.item.link}><img src={ddMenu.dropdown.item.img} alt="" /></a></div> : <a
-                                            href={ddMenu.dropdown.item.link}
+                                        <li>{ddMenu.dropdown.item.img ? <div className={ddMenu.dropdown.item.class}><Link to={ddMenu.dropdown.item.link}><img src={ddMenu.dropdown.item.img} alt="" /></Link></div> : <Link
+                                            to={ddMenu.dropdown.item.link}
                                             className={ddMenu.dropdown.item.class}
-                                        >{ddMenu.dropdown.item.text}</a>}</li>
+                                        >{ddMenu.dropdown.item.text}</Link>}</li>
                                     </ul>
                                 }
                             </li>)}

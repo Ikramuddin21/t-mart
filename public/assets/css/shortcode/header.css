@@ -581,7 +581,7 @@
   position: fixed;
   right: 0;
   top: 0;
-  transform: translateY(-200%);
+  /* transform: translateY(-200%); */
   transition: all 300ms ease 0s;
   z-index: 2147483647;
 }

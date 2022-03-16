@@ -1,0 +1,16 @@
+.login-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-custom > div {
+    display: flex;
+    align-items: center;
+    min-width: 180px;
+}
+
+.tabs__checkbox input {
+    width: 16px;
+    height: auto;
+}

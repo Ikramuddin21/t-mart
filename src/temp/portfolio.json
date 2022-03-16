@@ -1,0 +1,122 @@
+[
+    {
+        "catClass": "cat2 cat3",
+        "id": 1,
+        "imgUrl": "images/portfolio/equal/1.jpg",
+        "mainClass": "portfolio-img",
+        "mainLink": "/single-portfolio",
+        "iconObj": {
+            "parentClass":"portfolio-icon",
+            "childClass": "img-poppu",
+            "link": "images/portfolio/equal/2.jpg",
+            "icon": "zmdi zmdi-instagram"
+        },
+        "text": { 
+            "textClass": "portfolio-title portfolio-card-title text-center",
+            "textLink": "/single-portfolio",
+            "linkText": "Title goes here",
+            "spanText": "Design"
+        }
+
+    },
+    {
+        "catClass": "cat5 cat2",
+        "id": 2,
+        "imgUrl": "images/portfolio/equal/2.jpg",
+        "mainClass": "portfolio-img",
+        "mainLink": "/single-portfolio",
+        "iconObj": {
+            "parentClass":"portfolio-icon",
+            "childClass": "video-popup",
+            "link": "https://www.youtube.com/watch?v=cDDWvj_q-o8",
+            "icon": "zmdi zmdi-videocam"
+        },
+        "text": {
+            "textClass": "portfolio-title portfolio-card-title text-center",
+            "textLink": "/single-portfolio",
+            "linkText": "Title goes here",
+            "spanText": "Design"
+        }
+
+    },
+    {
+        "catClass": "cat2 cat3",
+        "id": 3,
+        "imgUrl": "images/portfolio/equal/3.jpg",
+        "mainClass": "portfolio-img",
+        "mainLink": "/single-portfolio",
+        "iconObj": {
+            "parentClass":"portfolio-icon",
+            "childClass": "video-popup",
+            "link": "https://www.youtube.com/watch?v=cDDWvj_q-o8",
+            "icon": "zmdi zmdi-videocam"
+        },
+        "text": {
+            "textClass": "portfolio-title portfolio-card-title text-center",
+            "textLink": "/single-portfolio",
+            "linkText": "Title goes here",
+            "spanText": "Design"
+        }
+
+    },
+    {
+        "catClass": "cat5 cat2",
+        "id": 4,
+        "imgUrl": "images/portfolio/equal/4.jpg",
+        "mainClass": "portfolio-img",
+        "mainLink": "/single-portfolio",
+        "iconObj": {
+            "parentClass":"portfolio-icon",
+            "childClass": "img-poppu",
+            "link": "images/portfolio/equal/2.jpg",
+            "icon": "zmdi zmdi-instagram"
+        },
+        "text": {
+            "textClass": "portfolio-title portfolio-card-title text-center",
+            "textLink": "/single-portfolio",
+            "linkText": "Title goes here",
+            "spanText": "Design"
+        }
+
+    },
+    {
+        "catClass": "cat2 cat5",
+        "id": 5,
+        "imgUrl": "images/portfolio/equal/5.jpg",
+        "mainClass": "portfolio-img",
+        "mainLink": "/single-portfolio",
+        "iconObj": {
+            "parentClass":"portfolio-icon",
+            "childClass": "video-popup",
+            "link": "https://www.youtube.com/watch?v=cDDWvj_q-o8",
+            "icon": "zmdi zmdi-videocam"
+        },
+        "text": {
+            "textClass": "portfolio-title portfolio-card-title text-center",
+            "textLink": "/single-portfolio",
+            "linkText": "Title goes here",
+            "spanText": "Design"
+        }
+
+    },
+    {
+        "catClass": "cat3 cat5",
+        "id": 6,
+        "imgUrl": "images/portfolio/equal/6.jpg",
+        "mainClass": "portfolio-img",
+        "mainLink": "/single-portfolio",
+        "iconObj": {
+            "parentClass":"portfolio-icon",
+            "childClass": "img-poppu",
+            "link": "images/portfolio/equal/2.jpg",
+            "icon": "zmdi zmdi-instagram"
+        },
+        "text": {
+            "textClass": "portfolio-title portfolio-card-title text-center",
+            "textLink": "/single-portfolio",
+            "linkText": "Title goes here",
+            "spanText": "Design"
+        }
+
+    }
+]

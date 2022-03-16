@@ -137,7 +137,6 @@
                         "id": 5.2,
                         "text": "Testimonials",
                         "class": "",
-                        "icon": true,
                         "iconClass": "zmdi zmdi-chevron-right",
                         "link": "",
                         "dropdown": {

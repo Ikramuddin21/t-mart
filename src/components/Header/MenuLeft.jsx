@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../../temp/fakeData.json';
+import data from '../../temp/menus.json';
 
 const MenuLeft = () => {
 
@@ -20,11 +20,11 @@ const MenuLeft = () => {
                                 to={ddMenu.link && ddMenu.link}
                                 className={ddMenu.class}
                                 >{ddMenu.text}
-                                {ddMenu.icon && <span><i className={ddMenu.iconClass} /></span>}
+                                {ddMenu.iconClass && <span><i className={ddMenu.iconClass} /></span>}
                             </Link>
                                 {
                                     Object.keys(ddMenu.dropdown).length > 0 && <ul className={ddMenu.dropdown.class}>
-                                        <li>{ddMenu.dropdown.item.img ? <div className={ddMenu.dropdown.item.class}><Link to={ddMenu.dropdown.item.link}><img src={ddMenu.dropdown.item.img} alt="" /></Link></div> : <Link
+                                        <li>{ddMenu.dropdown.item.img ? <div className={ddMenu.dropdown.item.class}><Link to={ddMenu.dropdown.item.link}><img src={require(`../../assets/${ddMenu.dropdown.item.img}`)} alt="" /></Link></div> : <Link
                                             to={ddMenu.dropdown.item.link}
                                             className={ddMenu.dropdown.item.class}
                                         >{ddMenu.dropdown.item.text}</Link>}</li>
